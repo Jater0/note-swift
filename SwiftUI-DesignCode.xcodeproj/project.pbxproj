@@ -15,6 +15,7 @@
 		56D7A90A26CA26D200630249 /* SwiftUI_DesignCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D7A90926CA26D200630249 /* SwiftUI_DesignCodeUITests.swift */; };
 		56D7A91C26CE9A9B00630249 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D7A91B26CE9A9B00630249 /* MenuView.swift */; };
 		56D7A91E26CEA54F00630249 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D7A91D26CEA54F00630249 /* Home.swift */; };
+		56D7A92026CEAB5200630249 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D7A91F26CEAB5200630249 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		56D7A90B26CA26D200630249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56D7A91B26CE9A9B00630249 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		56D7A91D26CEA54F00630249 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		56D7A91F26CEAB5200630249 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				56D7A8EC26CA26D100630249 /* SwiftUI_DesignCodeApp.swift */,
 				56D7A8EE26CA26D100630249 /* ContentView.swift */,
 				56D7A91D26CEA54F00630249 /* Home.swift */,
+				56D7A91F26CEAB5200630249 /* HomeView.swift */,
 				56D7A91B26CE9A9B00630249 /* MenuView.swift */,
 				56D7A8F026CA26D200630249 /* Assets.xcassets */,
 				56D7A8F526CA26D200630249 /* Info.plist */,
@@ -268,6 +271,7 @@
 				56D7A8EF26CA26D100630249 /* ContentView.swift in Sources */,
 				56D7A91C26CE9A9B00630249 /* MenuView.swift in Sources */,
 				56D7A91E26CEA54F00630249 /* Home.swift in Sources */,
+				56D7A92026CEAB5200630249 /* HomeView.swift in Sources */,
 				56D7A8ED26CA26D100630249 /* SwiftUI_DesignCodeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
