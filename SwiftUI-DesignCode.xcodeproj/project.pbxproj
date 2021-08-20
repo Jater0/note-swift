@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56BE011A26CF6BC600440F7F /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BE011926CF6BC600440F7F /* UpdateDetail.swift */; };
+		56BE011C26CF6E2200440F7F /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BE011B26CF6E2200440F7F /* UpdateStore.swift */; };
 		56D7A8ED26CA26D100630249 /* SwiftUI_DesignCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D7A8EC26CA26D100630249 /* SwiftUI_DesignCodeApp.swift */; };
 		56D7A8EF26CA26D100630249 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D7A8EE26CA26D100630249 /* ContentView.swift */; };
 		56D7A8F126CA26D200630249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56D7A8F026CA26D200630249 /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56BE011926CF6BC600440F7F /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
+		56BE011B26CF6E2200440F7F /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
 		56D7A8E926CA26D100630249 /* SwiftUI-DesignCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-DesignCode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56D7A8EC26CA26D100630249 /* SwiftUI_DesignCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_DesignCodeApp.swift; sourceTree = "<group>"; };
 		56D7A8EE26CA26D100630249 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 				56D7A91F26CEAB5200630249 /* HomeView.swift */,
 				56D7A91B26CE9A9B00630249 /* MenuView.swift */,
 				56D7A92126CEB67C00630249 /* UpdateList.swift */,
+				56BE011926CF6BC600440F7F /* UpdateDetail.swift */,
+				56BE011B26CF6E2200440F7F /* UpdateStore.swift */,
 				56D7A8F026CA26D200630249 /* Assets.xcassets */,
 				56D7A8F526CA26D200630249 /* Info.plist */,
 				56D7A8F226CA26D200630249 /* Preview Content */,
@@ -271,9 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56BE011A26CF6BC600440F7F /* UpdateDetail.swift in Sources */,
 				56D7A8EF26CA26D100630249 /* ContentView.swift in Sources */,
 				56D7A91C26CE9A9B00630249 /* MenuView.swift in Sources */,
 				56D7A92226CEB67C00630249 /* UpdateList.swift in Sources */,
+				56BE011C26CF6E2200440F7F /* UpdateStore.swift in Sources */,
 				56D7A91E26CEA54F00630249 /* Home.swift in Sources */,
 				56D7A92026CEAB5200630249 /* HomeView.swift in Sources */,
 				56D7A8ED26CA26D100630249 /* SwiftUI_DesignCodeApp.swift in Sources */,
@@ -438,7 +446,7 @@
 				DEVELOPMENT_TEAM = 6C48AGM4UX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-DesignCode/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +468,7 @@
 				DEVELOPMENT_TEAM = 6C48AGM4UX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-DesignCode/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
